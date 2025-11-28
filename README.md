@@ -1,6 +1,8 @@
 ## VS Code Verilog 컴파일 설정
 ### iVerilog 다운로드
 ### Icarus Verilog for Windows
+
+#### 1. Icarus Verilog 설치
 ```
 https://bleyer.org/icarus/
 ```
@@ -26,6 +28,21 @@ VScode 폴더 하나 생성해서
 <br>
 <img width="1907" height="687" alt="image" src="https://github.com/user-attachments/assets/7710f33c-aef5-4683-bb5b-060ad01c4c84" />
 <br>
+
+#### 1.1 Icarus Verilog 설치 확인
+
+(window +R) cmd 열기 
+설치 확인하기
+```
+iverilog -V
+```
+<img width="743" height="948" alt="image" src="https://github.com/user-attachments/assets/c7cb4d57-0009-40d5-a8d7-1a7fe9fc3cef" />
+<img width="760" height="303" alt="image" src="https://github.com/user-attachments/assets/9c1f814f-48d8-4edc-88c3-88a2e2153fb0" />
+<br>
+위와 같이 버전 뜨면 프로그램은 설치 준비 완
+
+#### 2. VS code에서 설정하기
+
 이전에 김남우 교수님이 해준 자동 정리 & 스니펫 설정 유지하고
 + 빠른 문법 오류 확인 설정 추가 예정
 
@@ -80,4 +97,6 @@ tasks.json 파일에 코드 수정 (그냥 삭제하고) 아래 코드 그냥 �
     ]
 }
 ```
+저장 후
+
 
