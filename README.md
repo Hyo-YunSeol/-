@@ -26,11 +26,10 @@ VScode 폴더 하나 생성해서
 <br>
 <img width="1907" height="687" alt="image" src="https://github.com/user-attachments/assets/7710f33c-aef5-4683-bb5b-060ad01c4c84" />
 <br>
-이전에 설정했던 자동 정리 & 스니펫 설정 유지하고
-+ 빠른 문법 오류 확인 설정 예정
+이전에 김남우 교수님이 해준 자동 정리 & 스니펫 설정 유지하고
++ 빠른 문법 오류 확인 설정 추가 예정
 
-tasks.json 파일에 코드 수정 
-아래 그대로 복붙 ㄱㄱ
+tasks.json 파일에 코드 수정 (그냥 삭제하고) 아래 코드 그냥 그대로 복붙 ㄱㄱ
 ```
 "version": "2.0.0",
     "tasks": [
