@@ -48,6 +48,7 @@ iverilog -V
 <img width="1907" height="687" alt="image" src="https://github.com/user-attachments/assets/7710f33c-aef5-4683-bb5b-060ad01c4c84" />
 <br>
 tasks.json 파일에 코드 수정 (그냥 삭제하고) 아래 코드 그냥 그대로 복붙 ㄱㄱ
+
 ```
 "version": "2.0.0",
     "tasks": [
@@ -98,6 +99,7 @@ tasks.json 파일에 코드 수정 (그냥 삭제하고) 아래 코드 그냥 �
     ]
 }
 ```
+
 저장 후
 
 #### 2.2 단축키 설정 전 테스트 
